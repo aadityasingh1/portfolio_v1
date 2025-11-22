@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import GithubIcon from '@mui/icons-material/GitHub';
 
 const Navbar = () => {
   return (
@@ -50,6 +51,10 @@ const Navbar = () => {
             <IconButton color="inherit">
               <InstagramIcon />
             </IconButton>
+
+            <IconButton color="inherit" href="https://github.com/aadityasingh1" target="_blank">
+                <GithubIcon />
+            </IconButton> 
           </Box>
         </Toolbar>
       </AppBar>
